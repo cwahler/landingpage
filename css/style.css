@@ -425,3 +425,84 @@ td,
 th {
   padding: 0;
 }
+
+html {
+  box-sizing: border-box;
+}
+  *, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+body {
+  
+  }
+
+
+.big-button {
+  margin: 0 auto;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #f15a29;
+  color: white;
+}
+
+.introduction {
+  background-image: url("../images/first-background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+  padding: 200px;
+}
+
+/* Navigation Section */
+.top-navigation {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+}
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto; 
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.logo {
+  margin: 14px;
+}
